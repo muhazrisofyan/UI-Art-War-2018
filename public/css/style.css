@@ -1,0 +1,32 @@
+
+@font-face {
+    font-family: 'Banaue'; /*a name to be used later*/
+    src: url('../fonts/Banaue-Regular.otf') format('truetype'); /*URL to font*/
+}
+
+.f1{
+    font-family: 'Banaue', sans-serif;
+}
+
+.responsive {
+    font-size: 75px;
+    font-size: 5.6vw;
+}
+
+@media all and (max-device-width: 720px){
+    .responsive {
+        font-size: 50px;
+    }
+}
+
+@media all and (max-device-width: 640px){
+    .responsive{
+        font-size: 38px;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    .responsive {
+        font-size: 40px;
+    }
+}
