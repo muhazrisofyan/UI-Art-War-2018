@@ -1,5 +1,9 @@
 @extends('master')
 
+@section('style-content')
+
+@endsection
+
 @section('script-content')
   <script type="text/javascript">
   // Set the date we're counting down to
