@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -25,6 +25,8 @@
          position: relative;
          top: 50px;
       }
+      #section1 {padding-top: 50px}
+      #section2 {padding-top: 50px}
       #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
       #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
       #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
@@ -32,7 +34,7 @@
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div class="responsive" style="width:100%;height:100%;position:relative;">
-      <img id="home" class="img-responsive" style="max-width:100%" src="src/images/uiaw.jpg" alt="uiaw img">
+      <img id="home" class="img-responsive" style="max-width:100%" src="/images/uiaw.jpg" alt="uiaw img">
       <p class="f1" id="demo" style="position:absolute;top:15%;left:45%"></p>
     </div>
 
@@ -65,11 +67,11 @@
     </nav>
 
     <div id="section1">
-      <img class="img-responsive" style="width:100%" src="src/images/contenthal1.png" alt="">
+      <img class="img-responsive" style="width:100%" src="/images/contenthal1.png" alt="">
     </div>
     <div id="section2" class="container">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12">
           <div class="embed-responsive embed-responsive-16by9 text-center">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZOxh7u-VZzw"></iframe>
           </div>
@@ -95,7 +97,7 @@
 
     <script>
     // Set the date we're counting down to
-    var countDownDate = new Date("Nov 4, 2017 14:03:00").getTime();
+    var countDownDate = new Date("Nov 6, 2017 07:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
