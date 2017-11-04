@@ -34,7 +34,7 @@
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div class="responsive" style="width:100%;height:100%;position:relative;">
-      <img id="home" class="img-responsive" style="max-width:100%" src="/images/uiaw.jpg" alt="uiaw img">
+      <img id="home" class="img-responsive" style="max-width:100%;margin-bottom:-50px" src="/images/uiaw.jpg" alt="uiaw img">
       <p class="f1" id="demo" style="position:absolute;top:15%;left:45%"></p>
     </div>
 
